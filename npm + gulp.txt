@@ -1,0 +1,10 @@
+1. Перейти в папку с проектом
+2. Инициализировать работы пакетов npm init (если нет package.json)
+3. Установка пакетов в соответствии с package.json npm install
+4. Gulp. Источник https://gulpjs.com/docs/en/getting-started/quick-start
+- установка gulp-cli глобально
+(Install the gulp command line utility)
+sudo npm install --global gulp-cli
+- https://browsersync.io/
+установка browser-sync глобально
+sudo npm install --global browser-sync 
