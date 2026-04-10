@@ -3,3 +3,5 @@
 https://tods-blog.com.ua/web-development/verstka/grid-flexbox/
 
 Игра grid garden для изучения CSS GRID https://cssgridgarden.com/#ru 
+
+SVG спрайты https://icomoon.io/
