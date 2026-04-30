@@ -1,3 +1,21 @@
 .footer
  background-color: $color-blue-dark
  grid-column: full-start / full-end
+ border-top: .3rem solid $color-grey-light
+ padding: 8rem 0
+.nav
+ display: flex
+ gap: 3.5rem
+ flex-wrap: wrap
+ justify-content: center
+ a, a:visited
+  text-decoration: none
+  text-transform: uppercase
+  font-size: 1.6rem
+  font-weight: 300
+  color: white
+  transition: .4s all
+  &:hover, &:active
+   color: $color-green-light
+   transform: translateY(-0.3rem)
+    
