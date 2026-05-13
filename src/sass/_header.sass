@@ -5,6 +5,8 @@
  padding: 5rem 5rem 5rem 6rem
  display: grid
  grid-template-rows: 1fr min-content 0.4fr 0.7fr 0.3fr
+ @include respond(tab-port)
+  grid-column: full-start / full-end
  &__line-text
   font-size: 1.6rem
   color: $color-grey-dark
@@ -19,11 +21,9 @@
    background-color: $color-grey-dark
    display: block
  &__img
-  justify-self: center
   display: grid
-  grid-template-columns: repeat(4, 1fr)
   justify-items: center
-  gap: 2rem
+  grid-template-columns: repeat(4, 1fr)
   img
    height: 3rem
    filter: brightness(70%)
